@@ -24,7 +24,7 @@ const Banner = () => {
             </div>
         </div>
         </div>
-        <div className='flex justify-between items-center max-w-containerWidth mx-auto mt-[100px]'>
+        <div className='flex justify-between items-center max-w-containerWidth mx-auto mt-[100px] mb-[100px]'>
             <div>
                 <h3 className='font-poppins font-bold text-[42px] capitalize'>The Highest Quality</h3>
                 <h6 className='font-poppins font-medium text-[17px] text-[#cd2822] tracking-widest	'>THE LARGEST METALS MANUFACTURING</h6>
