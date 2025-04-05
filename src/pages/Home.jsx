@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from '../components/home/sections/Navbar'
+import Banner from '../components/home/sections/Banner'
 
 const Home = () => {
   return (
     <>
-        <h1 className='text-5xl'>Shakil</h1>
+        <Navbar/>
+        <Banner/>
     </>
   )
 }
