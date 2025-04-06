@@ -2,22 +2,23 @@ import { FaCheck } from "react-icons/fa6";
 export const serviceList = [
     {
        "id":"1",
-        "item":"Pellentesque ultricies nibh",
+        "itemList":"Pellentesque ultricies nibh",
         "icon":FaCheck
     },
     {
        "id":"1",
-        "item":"Ultricies nibh pellen",
+        
+        "itemList":"Ultricies nibh pellen",
         "icon":FaCheck
     },
     {
        "id":"1",
-        "item":"Ultricies nibh pellen",
+        "itemList":"Ultricies nibh pellen",
         "icon":FaCheck
     },
     {
        "id":"1",
-        "item":"Pellentesque ultricies nubh",
+        "itemList":"Pellentesque ultricies nubh",
         "icon":FaCheck
     }
 ] 

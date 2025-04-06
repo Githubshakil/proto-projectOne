@@ -20,7 +20,7 @@ const WhatWeDo = () => {
     <div className=' bg-bgColor py-[100px] w-[1980px] '>
         <div className='max-w-containerWidth mx-auto '>
             <Title titleText={'WHAT WE DO'} />
-            <SubHeading subHeadingText={'A Selection Of Industries We Serve'}/>
+            <SubHeading subHeadingText={'A Selection Of Industries We Serve'} textleft={'false'}/>
             <p className='font-poppins text-secondary font-normal text-[16px] w-[500px] leading-8 mt-6 ml-[30%]'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.
             </p>
