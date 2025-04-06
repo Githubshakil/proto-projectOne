@@ -10,11 +10,14 @@ import categoryImg1 from '../../../assets/images/category-1.jpg'
 import categoryImg2 from '../../../assets/images/category-2.jpg'
 import categoryImg3 from '../../../assets/images/category-3.jpg'
 import categoryImg4 from '../../../assets/images/category-4.jpg'
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
+
 
 const WhatWeDo = () => {
   return (
     <>
-    <div className=' bg-bgColor py-[100px] '>
+    <div className=' bg-bgColor py-[100px] w-[1980px] '>
         <div className='max-w-containerWidth mx-auto '>
             <Title titleText={'WHAT WE DO'} />
             <SubHeading subHeadingText={'A Selection Of Industries We Serve'}/>
@@ -23,7 +26,8 @@ const WhatWeDo = () => {
             </p>
         </div>
 
-     <div className=' max-w-containerWidth mx-auto flex'>
+     <div className=' max-w-containerWidth mx-auto flex items-center'>
+        <FaArrowLeftLong className='hover:text-[#cd2822] duration-300 cursor-pointer text-[25px]'/>
      <div className='max-w-containerWidth mx-auto mt-10'>
                 <IndustriesCart icon={icon1} categoryImg={categoryImg1} titleName={'Automotive'}/>
         </div>
@@ -36,6 +40,9 @@ const WhatWeDo = () => {
         <div className='max-w-containerWidth mx-auto mt-10'>
                 <IndustriesCart icon={icon2} categoryImg={categoryImg4} titleName={'Eletrical'}/>
         </div>
+        <FaArrowRightLong className='hover:text-[#cd2822] duration-300 cursor-pointer text-[25px]'/>
+        <div className='max-w-containerWidth mx-auto mt-10'/>
+
      </div>
 
     </div>

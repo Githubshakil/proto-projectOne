@@ -12,7 +12,7 @@ const HeaderSection = () => {
             </div>
 
             <div>
-                <Button href={'#'} buttonText={'GET A QUOTE'}/>
+                <Button href={'#'} buttonText={'GET A QUOTE'} bgColor={true} />
             </div>
         </div>
     </div>
