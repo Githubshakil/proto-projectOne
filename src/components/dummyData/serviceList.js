@@ -1,4 +1,4 @@
-import { FaCheck } from "react-icons/fa6";
+
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
 export const serviceList = [
     {

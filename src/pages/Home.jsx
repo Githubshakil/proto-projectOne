@@ -4,6 +4,7 @@ import Banner from '../components/home/sections/Banner'
 import WhatWeDo from '../components/home/sections/WhatWeDo'
 import Services from '../components/home/sections/Services'
 import WeWork from '../components/home/sections/WeWork'
+import Testimonial from '../components/home/sections/Testimonial'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <WhatWeDo/>
         <Services/> 
         <WeWork/>
+        <Testimonial/>
         
     </>
   )
