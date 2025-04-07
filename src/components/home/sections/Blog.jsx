@@ -17,7 +17,7 @@ const Blog = () => {
                 <div className='flex justify-between'>
                 {
                     blogList.map((item) => (
-                        <BlogList images={item.images} date={item.date} comments={item.comments} />
+                        <BlogList images={item.images} date={item.date} comments={item.comments} name={item.name} blogHeading={item.blogHeading} para={item.para} />
                     ))
                 }
 

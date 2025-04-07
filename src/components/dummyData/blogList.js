@@ -10,7 +10,7 @@ export const blogList = [
         
     },
     {
-        "id" : "1",
+        "id" : "2",
         "images": "../../public/blog-2.jpg",
         "date": "10 Jan 2025 ",
         "comments":  '3 Comments' ,

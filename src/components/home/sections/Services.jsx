@@ -19,8 +19,7 @@ const Services = () => {
                 </div>
 
                 <div className='bg-white py-[50px] px-[50px] '>
-                    <Title titleText={'SPECIAL SERVICES'} textLeft={'true'}/>
-                    <SubHeading subHeadingText={'Other Industries'}/>
+                    
                     <p className='font-poppins text-secondary font-normal text-[16px] w-[525px] leading-8 mt-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod.</p>
                     <div className='mb-8'>
                     {

@@ -7,6 +7,8 @@ import WeWork from '../components/home/sections/WeWork'
 import Testimonial from '../components/home/sections/Testimonial'
 import Advantage from '../components/home/sections/Advantage'
 import Blog from '../components/home/sections/Blog'
+import Contact from '../components/home/sections/Contact'
+
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
         <Testimonial/>
         <Advantage/>
         <Blog/>
+        <Contact/>
+        
         
     </>
   )
