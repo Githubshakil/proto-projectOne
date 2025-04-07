@@ -1,24 +1,25 @@
 import { FaCheck } from "react-icons/fa6";
+import { IoCheckmarkCircleOutline } from "react-icons/io5";
 export const serviceList = [
     {
        "id":"1",
         "itemList":"Pellentesque ultricies nibh",
-        "icon":FaCheck
+        "icon":IoCheckmarkCircleOutline
     },
     {
        "id":"1",
         
         "itemList":"Ultricies nibh pellen",
-        "icon":FaCheck
+        "icon":IoCheckmarkCircleOutline
     },
     {
        "id":"1",
         "itemList":"Ultricies nibh pellen",
-        "icon":FaCheck
+        "icon":IoCheckmarkCircleOutline
     },
     {
        "id":"1",
         "itemList":"Pellentesque ultricies nubh",
-        "icon":FaCheck
+        "icon":IoCheckmarkCircleOutline
     }
 ] 

@@ -9,8 +9,8 @@ const Banner = () => {
   return (
     <>
         <div >
-        <div className='bg-bgColor bg-center pt-14 relative w-[1980px] '>
-            <img src={protoBg1} alt="" className='w-[1980px]' />
+        <div className='bg-bgColor bg-center pt-14 relative  '>
+            <img src={protoBg1} alt="" className='w-full h-[600px]'  />
         <div className='flex flex-col items-end pr-7 justify-center text-center w-[600px] h-[500px] bg-bgColor absolute left-0 top-0 z-10' >
                 <h2 className='font-poppins leading-[44px] text-4xl font-samibold text-headingColor capitalize '>The future of steel</h2>
                 <h1 className='font-poppins leading-[62px] text-[52px] font-extrabold text-headingColor capitalize  '>Solution Are Here</h1>
@@ -18,10 +18,10 @@ const Banner = () => {
                 <Button href={'#'} buttonText={'GET STARTED'}/>
             </div>
 
-            <div className=' absolute left-[62%] top-8'>
+            <div className=' absolute left-[62%] top-8 bg-cover'>
                 <img src={heroImgOne} alt="" />
             </div>
-            <div className=' overflow-y-hidden absolute left-[20%] top-[45%] '>
+            <div className=' overflow-y-hidden absolute left-[20%] top-[49%] bg-cover '>
                 <img src={heroImgTwo} alt="" />
             </div>
         </div>

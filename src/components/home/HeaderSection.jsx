@@ -16,7 +16,7 @@ const HeaderSection = () => {
             </div>
         </div>
     </div>
-    <div className='border-b-2 bg-secondary mt-[2px] w-[1980px]' ></div>
+    <div className='border-b-2 bg-secondary mt-[2px] ' ></div>
         
                 
             

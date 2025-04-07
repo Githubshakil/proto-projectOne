@@ -11,7 +11,7 @@ import Button from '../../helpers/Button'
 const Services = () => {
   return (
     <>
-        <div className='  bg-bgColor w-[1980px] '>
+        <div className='  bg-bgColor  '>
 
             <div className='flex items-center gap-[75px]  max-w-containerWidth  mx-auto mt[100px]'>
                 <div>
@@ -36,8 +36,8 @@ const Services = () => {
                 </div>
             </div>
             <div className='mt-[100px] relative'>
-                <img src={bgTwo} alt="" />
-                <div className=' max-w-containerWidth mx-auto absolute top-[100px] left-[25%] flex items-center gap-[100px] tracking-widest leading-[42px]'>
+                <img src={bgTwo} alt="" className='w-full' />
+                <div className=' max-w-containerWidth mx-auto absolute top-[100px] translate-x-[50%] translate-y-[50%] left-[10%] flex items-center gap-[100px] tracking-widest leading-[42px]'>
                     <h3 className='font-poppinsb font-bold text-[31px] text-white '>Custom Steel Pipe For Your Next Project</h3> 
                     <Button buttonText={'GET A QUOTE'}/>
                 </div>

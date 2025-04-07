@@ -17,7 +17,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const WhatWeDo = () => {
   return (
     <>
-    <div className=' bg-bgColor py-[100px] w-[1980px] '>
+    <div className=' bg-bgColor py-[100px]  '>
         <div className='max-w-containerWidth mx-auto '>
             <Title titleText={'WHAT WE DO'} />
             <SubHeading subHeadingText={'A Selection Of Industries We Serve'} textleft={'false'}/>
