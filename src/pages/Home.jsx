@@ -5,6 +5,8 @@ import WhatWeDo from '../components/home/sections/WhatWeDo'
 import Services from '../components/home/sections/Services'
 import WeWork from '../components/home/sections/WeWork'
 import Testimonial from '../components/home/sections/Testimonial'
+import Advantage from '../components/home/sections/Advantage'
+import Blog from '../components/home/sections/Blog'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
         <Services/> 
         <WeWork/>
         <Testimonial/>
+        <Advantage/>
+        <Blog/>
         
     </>
   )

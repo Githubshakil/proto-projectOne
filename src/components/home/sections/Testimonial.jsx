@@ -11,7 +11,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const Testimonial = () => {
   return (
     <>
-        <div className='bg-bgColor mt-[100px] pt-[130px]'>
+        <div className='bg-bgColor mt-[100px] py-[130px] '>
             
             <div className='max-w-containerWidth mx-auto'>
                 <Title  titleText={'TESTIMONIALS'} textLeft={'true'}/>
@@ -20,7 +20,7 @@ const Testimonial = () => {
 
             </div>
 
-            <div className='flex items-center justify-center gap-10 max-w-containerWidth mx-auto mt-[50px]'>
+            <div className='flex items-center justify-center gap-20 max-w-containerWidth mx-auto mt-[50px]'>
             <FaLongArrowAltLeft className='text-[25px] hover:text-[#cd2822] cursor-pointer'/>
 
                 {

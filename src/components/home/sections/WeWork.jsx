@@ -26,7 +26,7 @@ const WeWork = () => {
                     <div className='flex flex-col justify-center items-center '>
                         <div className='h-[100px] w-[100px] border-2 border-secondary  rounded-full text-center flex justify-center items-center text-[40px] font-poppins font-samibold text-[#cd2822] hover:bg-[#cd2822] hover:text-white duration-300 '>2</div>
                         <h5 className='mt-6 font-poppins font-bold leading-7 text-[19px] text-center '>
-                            BRAINSTORM
+                        DEVELOPMENT
                         </h5>
                         <p className=' text-center font-poppins text-secondary mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.
                         </p>
@@ -36,7 +36,7 @@ const WeWork = () => {
                     <div className='flex flex-col justify-center items-center'>
                         <div className='h-[100px] w-[100px] border-2 border-secondary  rounded-full text-center flex justify-center items-center text-[40px] font-poppins font-samibold text-[#cd2822] hover:bg-[#cd2822] hover:text-white duration-300 '>3</div>
                         <h5 className='mt-6 font-poppins font-bold leading-7 text-[19px] text-center '>
-                            BRAINSTORM
+                        DELIVERY
                         </h5>
                         <p className=' text-center font-poppins text-secondary mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.
                         </p>
